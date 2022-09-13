@@ -1,0 +1,6 @@
+npm install
+npm test
+
+caso 1 e 2 feitos usando selenium, mocha e webdriver.
+caso 3 feito utilizando Gherkin syntax
+caso 4 feito utilizando sql querys
