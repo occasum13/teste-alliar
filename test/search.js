@@ -9,11 +9,11 @@ describe('test olx searching engine', () => {
 
         searchEngine.enter_search('marea turbo');
 
-        searchEngine.take_screenshot('valid-research-image')
+        searchEngine.take_screenshot('valid-research-image.jpg')
 
         setTimeout(function(){
             done();
-        }, 40000);
+        }, 45000);
     });
 
     it('test invalid search input take a screenshot', (done) => {
@@ -21,7 +21,7 @@ describe('test olx searching engine', () => {
 
         searchEngine.enter_search('!!!???###');
 
-        searchEngine.take_screenshot('invalid-research-image')
+        searchEngine.take_screenshot('invalid-research-image.jpg')
 
         searchEngine.close_window();
 
